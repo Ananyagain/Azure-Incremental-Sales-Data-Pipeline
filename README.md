@@ -8,6 +8,9 @@ The pipeline implements incremental data loading to process only newly available
 
 The project demonstrates key data engineering concepts including API-based ingestion, incremental ETL processing, orchestration with Azure Data Factory, data transformation with PySpark, and dimensional data modeling using a star schema approach.
 
+<img width="1678" height="1131" alt="diagram-export-6-20-2026-1_30_50-PM" src="https://github.com/user-attachments/assets/6151ff32-a3a6-4988-a72f-11efd6d8b810" />
+
+
 ## Architecture
 
 ### Bronze Layer
