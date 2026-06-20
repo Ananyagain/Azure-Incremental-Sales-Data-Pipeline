@@ -1,15 +1,13 @@
 # Incremental Sales Data Pipeline using ADF and Databricks
 
 ## Overview
+<img width="1678" height="1131" alt="diagram-export-6-20-2026-1_30_50-PM" src="https://github.com/user-attachments/assets/6151ff32-a3a6-4988-a72f-11efd6d8b810" />
 
 This project demonstrates an end-to-end data engineering solution for a fictional e-commerce company, BuyAnything Sales. The solution is designed to efficiently ingest, process, and organize sales order data using Azure Data Factory (ADF), Azure Data Lake Storage Gen2 (ADLS Gen2), Azure SQL Database, and Azure Databricks.
 
 The pipeline implements incremental data loading to process only newly available records, reducing data movement and improving efficiency. Following the Medallion Architecture (Bronze, Silver, and Gold layers), raw sales data is ingested from an API, transformed into a cleansed and standardized format, and ultimately modeled into fact and dimension tables for downstream analytical consumption.
 
 The project demonstrates key data engineering concepts including API-based ingestion, incremental ETL processing, orchestration with Azure Data Factory, data transformation with PySpark, and dimensional data modeling using a star schema approach.
-
-<img width="1678" height="1131" alt="diagram-export-6-20-2026-1_30_50-PM" src="https://github.com/user-attachments/assets/6151ff32-a3a6-4988-a72f-11efd6d8b810" />
-
 
 ## Architecture
 
